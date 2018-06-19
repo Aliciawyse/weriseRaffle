@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WeRise</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--css framework bulma-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+    <!--css animations library-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--d3-->
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+
+
+</head>
+<body>
+
+    <img src="https://static1.squarespace.com/static/587a60d2197aeadc2b0370d3/t/59ed07fc6f4ca3771ef22918/1508706326586/werise-feature-image-2018.png?format=2500w" alt="logo">
+
+    <h1 class="hidden animated rubberBand" ></h1>
+
+    <img src="https://media.giphy.com/media/xUOwGhxclbHAqMgggw/giphy.gif" alt="gif" class="hidden" id="gif">
+
+    <ul id="mylist" class="slot"></ul>
+
+    <a class="button is-rounded is-large" id="pickWinner">Pick a winner!</a>
+
+    <script src="parsedata.js"></script>
+
+</body>
+</html>

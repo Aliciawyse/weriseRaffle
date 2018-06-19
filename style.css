@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #eeeeee;
+    height: 100%;
+    padding: 5%;
+    padding-top: .5%;
+
+}
+ul {
+    height: 300px;
+    overflow: auto;
+    background-color: #fafafa;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    list-style: none;
+}
+
+li{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: #212121;
+}
+
+img{
+    width: 45%;
+}
+
+.button{
+    background-color: #faa73f;
+    margin-top: 1.5%;
+    color: #212121;
+}
+
+.hidden{
+    display:none;
+}
+
+#gif {
+    width: 600px;
+    height: auto;
+    margin: 0 auto
+}
