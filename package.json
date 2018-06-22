@@ -1,0 +1,23 @@
+{
+  "name": "werise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parsedata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliciawyse/weriseRaffle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliciawyse/weriseRaffle/issues"
+  },
+  "homepage": "https://github.com/Aliciawyse/weriseRaffle#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
