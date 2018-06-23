@@ -8,7 +8,7 @@ function getData (){
         attendees = data;
         dataLength = data.length;
         for (const datum of data) {
-            $( "ul" ).append(`<li class="subtitle is-3" > ${datum.firstName} ${datum.lastName} ${datum.company} </li>`);
+            $( "ul" ).append(`<li class="subtitle is-3" > ${datum.firstName} ${datum.lastName} ${datum.email} </li>`);
         }
         scrollDiv_init();
     });
